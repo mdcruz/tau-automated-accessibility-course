@@ -7,7 +7,7 @@ describe('Contrast Advisor Demo', () => {
       appName: 'Contrast Advisor',
       batchName: 'Contrast Advisor',
     });
-    cy.visit('http://www.fortherecord.simonfosterdesign.com/');
+    cy.visit('https://heavyweight.nl/');
     cy.eyesCheckWindow();
     cy.eyesClose();
   });
